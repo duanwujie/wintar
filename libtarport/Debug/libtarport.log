@@ -1,0 +1,57 @@
+﻿生成启动时间为 2014/1/27 21:56:03。
+     1>项目“F:\vs2010projects\libtarport\libtarport\libtarport.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\libtarport.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt recursive_action.cpp
+         recursive_action.cpp
+     1>recursive_action.cpp(81): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>recursive_action.cpp(91): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>recursive_action.cpp(24): warning C4101: “next”: 未引用的局部变量
+     1>recursive_action.cpp(23): warning C4101: “dir”: 未引用的局部变量
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\vs2010projects\libtarport\Debug\libtarport.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\libtarport.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\vs2010projects\libtarport\Debug\libtarport.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\vs2010projects\libtarport\Debug\libtarport.lib" /MACHINE:X86 Debug\basename.obj
+         Debug\bb_strtonum.obj
+         Debug\concat_path_file.obj
+         Debug\concat_subpath_file.obj
+         Debug\copyfd.obj
+         Debug\data_align.obj
+         Debug\data_extract_all.obj
+         Debug\data_skip.obj
+         Debug\dirent.obj
+         Debug\filter_accept_all.obj
+         Debug\filter_accept_reject_list.obj
+         Debug\full_write.obj
+         Debug\get_header_tar.obj
+         Debug\header_list.obj
+         Debug\header_skip.obj
+         Debug\header_verbos_list.obj
+         Debug\init_handle.obj
+         Debug\last_char_is.obj
+         Debug\llist.obj
+         Debug\make_directory.obj
+         Debug\mode_string.obj
+         Debug\perror_msg.obj
+         Debug\read.obj
+         Debug\recursive_action.obj
+         Debug\safe_strncpy.obj
+         Debug\safe_write.obj
+         Debug\seek_by_jump.obj
+         Debug\seek_by_read.obj
+         Debug\tar.obj
+         Debug\xfuncs.obj
+         Debug\xreadlink.obj
+         libtarport.vcxproj -> F:\vs2010projects\libtarport\Debug\libtarport.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\vs2010projects\libtarport\Debug\libtarport.exe;#1" /manifest Debug\libtarport.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\libtarport.unsuccessfulbuild”。
+         正在对“Debug\libtarport.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\vs2010projects\libtarport\libtarport\libtarport.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.16
